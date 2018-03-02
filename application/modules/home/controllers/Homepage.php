@@ -6,22 +6,11 @@ class Homepage extends MY_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		// print_r($$this->session->userdata('user_id'));
-		// if($this->session->userdata('user_id') == ''){
-		// 	redirect('login');
-		// }
-		// $this->load->model('m_master');
-  //       $this->set_menugroup('agen');
+
 	}
 
 	public function index()
 	{
-		// $d['page'] = 'assess_index';
-    	// $d['title'] = 'Beranda';
-    	// $d['breadcrumbs'] = array();
-    	// $d['active'] = 'active';
-    	// $data = $this->m_master->getListData('m_agen_tbl')->result_array();
-    	// $this->templates->assign( 'data', $data);
     	$this->layout('test', 'Beranda');
 	}
 
