@@ -11,8 +11,8 @@
         <!-- END META SECTION -->
         
         <!-- CSS INCLUDE -->        
-        <link rel="stylesheet" type="text/css" id="theme" href="{$assets_url}css/theme-default.css"/>
-        <!-- EOF CSS INCLUDE -->                   
+        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-default.css"/>
+        <!-- EOF CSS INCLUDE -->                                     
     </head>
     <body>
         <!-- START PAGE CONTAINER -->
@@ -45,15 +45,15 @@
                         </div>                                                                        
                     </li>
                     <li class="xn-title">Navigation</li>
-                    <li class="xn-openable active">
+                    <li class="xn-openable">
                         <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Dashboards</span></a>
                         <ul>
-                            <li class="active"><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
+                            <li><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
                             <li><a href="dashboard.html"><span class="xn-text">Dashboard 2</span></a><div class="informer informer-danger">New!</div></li>
                             <li><a href="dashboard-dark.html"><span class="xn-text">Dashboard 3</span></a><div class="informer informer-danger">New!</div></li>
                         </ul>
-                    </li>                    
-                    <li class="xn-openable">
+                    </li>
+                    <li class="xn-openable active">
                         <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Pages</span></a>
                         <ul>
                             <li><a href="pages-gallery.html"><span class="fa fa-image"></span> Gallery</a></li>
@@ -68,10 +68,10 @@
                                     <li><a href="pages-timeline-simple.html"><span class="fa fa-align-justify"></span> Full Width</a></li>
                                 </ul>
                             </li>
-                            <li class="xn-openable">
+                            <li class="xn-openable active">                                
                                 <a href="#"><span class="fa fa-envelope"></span> Mailbox</a>
                                 <ul>
-                                    <li><a href="pages-mailbox-inbox.html"><span class="fa fa-inbox"></span> Inbox</a></li>
+                                    <li class="active"><a href="pages-mailbox-inbox.html"><span class="fa fa-inbox"></span> Inbox</a></li>
                                     <li><a href="pages-mailbox-message.html"><span class="fa fa-file-text"></span> Message</a></li>
                                     <li><a href="pages-mailbox-compose.html"><span class="fa fa-pencil"></span> Compose</a></li>
                                 </ul>
@@ -100,7 +100,7 @@
                                     <li><a href="pages-login-website.html">Website Login</a></li>
                                     <li><a href="pages-login-website-light.html"> Website Login Light</a></li>
                                 </ul>
-                            </li>
+                            </li>                          
                             <li class="xn-openable">
                                 <a href="#"><span class="fa fa-plus"></span> Registration</a>
                                 <ul>                                                                        
@@ -160,14 +160,14 @@
                             <li><a href="ui-tour.html"><span class="fa fa-random"></span> Tour</a></li>
                             <li><a href="ui-nestable.html"><span class="fa fa-sitemap"></span> Nestable List</a></li>
                             <li><a href="ui-autocomplete.html"><span class="fa fa-search-plus"></span> Autocomplete</a></li>
-                            <li><a href="ui-slide-menu.html"><span class="fa fa-angle-right"></span> Slide Menu</a></li>
+                            <li><a href="ui-slide-menu.html"><span class="fa fa-angle-right"></span> Slide Menu</a></li>                            
                         </ul>
                     </li>                    
                     <li class="xn-openable">
                         <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">Forms</span></a>
                         <ul>
                             <li class="xn-openable">
-                                <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>                                
+                                <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>
                                 <ul>
                                     <li><a href="form-layouts-one-column.html"><span class="fa fa-align-justify"></span> One Column</a></li>
                                     <li><a href="form-layouts-two-column.html"><span class="fa fa-th-large"></span> Two Column</a></li>
@@ -198,7 +198,7 @@
                             <li><a href="charts-rickshaw.html">Rickshaw</a></li>
                             <li><a href="charts-other.html">Other</a></li>
                         </ul>
-                    </li>                    
+                    </li>                  
                     <li>
                         <a href="maps.html"><span class="fa fa-map-marker"></span> <span class="xn-text">Maps</span></a>
                     </li>                    
@@ -245,7 +245,7 @@
                             <input type="text" name="search" placeholder="Search..."/>
                         </form>
                     </li>   
-                    <!-- END SEARCH -->                    
+                    <!-- END SEARCH -->
                     <!-- POWER OFF -->
                     <li class="xn-icon-button pull-right last">
                         <a href="#"><span class="fa fa-power-off"></span></a>
@@ -254,7 +254,7 @@
                             <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Sign Out</a></li>
                         </ul>                        
                     </li> 
-                    <!-- END POWER OFF -->                    
+                    <!-- END POWER OFF -->
                     <!-- MESSAGES -->
                     <li class="xn-icon-button pull-right">
                         <a href="#"><span class="fa fa-comments"></span></a>
@@ -357,17 +357,246 @@
                     <!-- END LANG BAR -->
                 </ul>
                 <!-- END X-NAVIGATION VERTICAL -->                     
-
-                <!-- START BREADCRUMB -->
-                <ul class="breadcrumb">
-                    <li><a href="#">Home</a></li>                    
-                    <li class="active">Dashboard</li>
-                </ul>
-                <!-- END BREADCRUMB -->                       
                 
-                <!-- PAGE CONTENT WRAPPER -->
-                {include file=$template}
-                <!-- END PAGE CONTENT WRAPPER -->                                
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb push-down-0">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Mailbox</a></li>
+                    <li class="active">Inbox</li>
+                </ul>
+                <!-- END BREADCRUMB -->                
+                                
+                <!-- START CONTENT FRAME -->
+                <div class="content-frame">                                    
+                    <!-- START CONTENT FRAME TOP -->
+                    <div class="content-frame-top">                        
+                        <div class="page-title">                    
+                            <h2><span class="fa fa-inbox"></span> Inbox <small>(3 unread)</small></h2>
+                        </div>                                                                                
+                        
+                        <div class="pull-right">                            
+                            <button class="btn btn-default"><span class="fa fa-cogs"></span> Settings</button>
+                            <button class="btn btn-default content-frame-left-toggle"><span class="fa fa-bars"></span></button>
+                        </div>                        
+                    </div>
+                    <!-- END CONTENT FRAME TOP -->
+                    
+                    <!-- START CONTENT FRAME LEFT -->
+                    <div class="content-frame-left">
+                        <div class="block">
+                            <a href="pages-mailbox-compose.html" class="btn btn-danger btn-block btn-lg"><span class="fa fa-edit"></span> COMPOSE</a>
+                        </div>
+                        <div class="block">
+                            <div class="list-group border-bottom">
+                                <a href="#" class="list-group-item active"><span class="fa fa-inbox"></span> Inbox <span class="badge badge-success">3</span></a>
+                                <a href="#" class="list-group-item"><span class="fa fa-star"></span> Starred <span class="badge badge-warning">6</span></a>
+                                <a href="#" class="list-group-item"><span class="fa fa-rocket"></span> Sent</a>
+                                <a href="#" class="list-group-item"><span class="fa fa-flag"></span> Flagged</a>
+                                <a href="#" class="list-group-item"><span class="fa fa-trash-o"></span> Deleted <span class="badge badge-default">1.4k</span></a>                            
+                            </div>                        
+                        </div>
+                        <div class="block">
+                            <h4>Labels</h4>
+                            <div class="list-group list-group-simple">                                
+                                <a href="#" class="list-group-item"><span class="fa fa-circle text-success"></span> Clients</a>
+                                <a href="#" class="list-group-item"><span class="fa fa-circle text-warning"></span> Social</a>
+                                <a href="#" class="list-group-item"><span class="fa fa-circle text-danger"></span> Work</a>
+                                <a href="#" class="list-group-item"><span class="fa fa-circle text-info"></span> Family</a>
+                                <a href="#" class="list-group-item"><span class="fa fa-circle text-primary"></span> Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END CONTENT FRAME LEFT -->
+                    
+                    <!-- START CONTENT FRAME BODY -->
+                    <div class="content-frame-body">
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <label class="check mail-checkall">
+                                    <input type="checkbox" class="icheckbox"/>
+                                </label>
+                                <div class="btn-group">
+                                    <button class="btn btn-default"><span class="fa fa-mail-reply"></span></button>
+                                    <button class="btn btn-default"><span class="fa fa-mail-reply-all"></span></button>
+                                    <button class="btn btn-default"><span class="fa fa-mail-forward"></span></button>
+                                </div>
+                                <div class="btn-group">
+                                    <button class="btn btn-default"><span class="fa fa-star"></span></button>                                    
+                                    <button class="btn btn-default"><span class="fa fa-flag"></span></button>
+                                </div>                                
+                                <button class="btn btn-default"><span class="fa fa-warning"></span></button>
+                                <button class="btn btn-default"><span class="fa fa-trash-o"></span></button>                                                                    
+                                <div class="pull-right" style="width: 150px;">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><span class="fa fa-calendar"></span></div>
+                                        <input class="form-control datepicker" type="text" data-orientation="left"/>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body mail">
+                                
+                                <div class="mail-item mail-unread mail-info">                                    
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">Dmitry Ivaniuk</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">Product development</a>                                    
+                                    <div class="mail-date">Today, 11:21</div>
+                                </div>
+                                
+                                <div class="mail-item mail-unread mail-danger">                                    
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">John Doe</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">New Windows 9 App</a>                                    
+                                    <div class="mail-date">Today, 10:36</div>
+                                </div>
+                                
+                                <div class="mail-item mail-success">
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">Nadia Ali</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">Check my new song</a>                                    
+                                    <div class="mail-date">Yesterday, 20:19</div>
+                                </div>
+                                
+                                <div class="mail-item mail-warning">
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star starred">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">Brad Pitt</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">How are you? Need some work?</a>                                    
+                                    <div class="mail-date">Sep 15</div>
+                                </div>
+                                
+                                <div class="mail-item mail-info">
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">Dmitry Ivaniuk</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">Can you check this docs?</a>                                    
+                                    <div class="mail-date">Sep 14</div>
+                                    <div class="mail-attachments">
+                                        <span class="fa fa-paperclip"></span> 11Kb
+                                    </div>
+                                </div>
+                                
+                                <div class="mail-item">
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star starred">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">HTC</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">New updates on your phone HD7</a>
+                                    <div class="mail-date">Sep 13</div>
+                                    <div class="mail-attachments">
+                                        <span class="fa fa-paperclip"></span> 58Mb
+                                    </div>
+                                </div>
+                                
+                                <div class="mail-item mail-unread">
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">Unknown</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">You won $15,000,000</a>
+                                    <div class="mail-date">Sep 13</div>
+                                </div>
+                                
+                                <div class="mail-item mail-success">
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">Nadia Ali</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">Your tickets</a>
+                                    <div class="mail-date">Sep 11</div>
+                                    <div class="mail-attachments">
+                                        <span class="fa fa-paperclip"></span> 1.2Mb
+                                    </div>
+                                </div>
+                                
+                                <div class="mail-item mail-info">
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">Dmitry Ivaniuk</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">New bug founded</a>
+                                    <div class="mail-date">Sep 11</div>
+                                </div>
+                                
+                                <div class="mail-item">
+                                    <div class="mail-checkbox">
+                                        <input type="checkbox" class="icheckbox"/>
+                                    </div>
+                                    <div class="mail-star">
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="mail-user">Darth Vader</div>                                    
+                                    <a href="pages-mailbox-message.html" class="mail-text">Where drawings of the new spaceship?</a>
+                                    <div class="mail-date">Sep 10</div>
+                                </div>                                
+                                
+                            </div>
+                            <div class="panel-footer">                                
+                                <div class="btn-group">
+                                    <button class="btn btn-default"><span class="fa fa-mail-reply"></span></button>
+                                    <button class="btn btn-default"><span class="fa fa-mail-reply-all"></span></button>
+                                    <button class="btn btn-default"><span class="fa fa-mail-forward"></span></button>
+                                </div>
+                                <div class="btn-group">
+                                    <button class="btn btn-default"><span class="fa fa-star"></span></button>                                    
+                                    <button class="btn btn-default"><span class="fa fa-flag"></span></button>
+                                </div>
+                                
+                                <button class="btn btn-default"><span class="fa fa-warning"></span></button>
+                                <button class="btn btn-default"><span class="fa fa-trash-o"></span></button>                                    
+                                
+                                <ul class="pagination pagination-sm pull-right">
+                                    <li class="disabled"><a href="#">«</a></li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>                                    
+                                    <li><a href="#">»</a></li>
+                                </ul>
+                            </div>                            
+                        </div>
+                        
+                    </div>
+                    <!-- END CONTENT FRAME BODY -->
+                </div>
+                <!-- END CONTENT FRAME -->
+                
             </div>            
             <!-- END PAGE CONTENT -->
         </div>
@@ -394,42 +623,29 @@
         <!-- END MESSAGE BOX-->
 
         <!-- START PRELOADS -->
-        <audio id="audio-alert" src="{$assets_url}audio/alert.mp3" preload="auto"></audio>
-        <audio id="audio-fail" src="{$assets_url}audio/fail.mp3" preload="auto"></audio>
-        <!-- END PRELOADS -->                  
+        <audio id="audio-alert" src="audio/alert.mp3" preload="auto"></audio>
+        <audio id="audio-fail" src="audio/fail.mp3" preload="auto"></audio>
+        <!-- END PRELOADS -->              
         
     <!-- START SCRIPTS -->
         <!-- START PLUGINS -->
-        <script type="text/javascript" src="{$assets_url}js/plugins/jquery/jquery.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/jquery/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/bootstrap/bootstrap.min.js"></script>        
+        <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
         <!-- END PLUGINS -->
 
         <!-- START THIS PAGE PLUGINS-->        
-        <script type='text/javascript' src='{$assets_url}js/plugins/icheck/icheck.min.js'></script>        
-        <script type="text/javascript" src="{$assets_url}js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/scrolltotop/scrolltopcontrol.js"></script>
+        <script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>
+        <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
         
-        <script type="text/javascript" src="{$assets_url}js/plugins/morris/raphael-min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/morris/morris.min.js"></script>       
-        <script type="text/javascript" src="{$assets_url}js/plugins/rickshaw/d3.v3.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/rickshaw/rickshaw.min.js"></script>
-        <script type='text/javascript' src='{$assets_url}js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js'></script>
-        <script type='text/javascript' src='{$assets_url}js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js'></script>                
-        <script type='text/javascript' src='{$assets_url}js/plugins/bootstrap/bootstrap-datepicker.js'></script>                
-        <script type="text/javascript" src="{$assets_url}js/plugins/owl/owl.carousel.min.js"></script>                 
-        
-        <script type="text/javascript" src="{$assets_url}js/plugins/moment.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/daterangepicker/daterangepicker.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-datepicker.js"></script>     
         <!-- END THIS PAGE PLUGINS-->        
 
         <!-- START TEMPLATE -->
-        <script type="text/javascript" src="{$assets_url}js/settings.js"></script>
+        <script type="text/javascript" src="js/settings.js"></script>
         
-        <script type="text/javascript" src="{$assets_url}js/plugins.js"></script>        
-        <script type="text/javascript" src="{$assets_url}js/actions.js"></script>
-        
-        <script type="text/javascript" src="{$assets_url}js/demo_dashboard.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>        
+        <script type="text/javascript" src="js/actions.js"></script>        
         <!-- END TEMPLATE -->
     <!-- END SCRIPTS -->         
     </body>

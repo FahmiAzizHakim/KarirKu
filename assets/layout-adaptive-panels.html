@@ -11,8 +11,8 @@
         <!-- END META SECTION -->
         
         <!-- CSS INCLUDE -->        
-        <link rel="stylesheet" type="text/css" id="theme" href="{$assets_url}css/theme-default.css"/>
-        <!-- EOF CSS INCLUDE -->                   
+        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-default.css"/>
+        <!-- EOF CSS INCLUDE -->                       
     </head>
     <body>
         <!-- START PAGE CONTAINER -->
@@ -45,14 +45,14 @@
                         </div>                                                                        
                     </li>
                     <li class="xn-title">Navigation</li>
-                    <li class="xn-openable active">
+                    <li class="xn-openable">
                         <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Dashboards</span></a>
                         <ul>
-                            <li class="active"><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
+                            <li><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
                             <li><a href="dashboard.html"><span class="xn-text">Dashboard 2</span></a><div class="informer informer-danger">New!</div></li>
                             <li><a href="dashboard-dark.html"><span class="xn-text">Dashboard 3</span></a><div class="informer informer-danger">New!</div></li>
                         </ul>
-                    </li>                    
+                    </li>                  
                     <li class="xn-openable">
                         <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Pages</span></a>
                         <ul>
@@ -83,8 +83,7 @@
                             <li><a href="pages-faq.html"><span class="fa fa-question-circle"></span> FAQ</a></li>
                             <li><a href="pages-search.html"><span class="fa fa-search"></span> Search</a></li>
                             <li class="xn-openable">
-                                <a href="#"><span class="fa fa-file"></span> Blog</a>
-                                
+                                <a href="#"><span class="fa fa-file"></span> Blog</a>                                
                                 <ul>                                    
                                     <li><a href="pages-blog-list.html"><span class="fa fa-copy"></span> List of Posts</a></li>
                                     <li><a href="pages-blog-post.html"><span class="fa fa-file-o"></span>Single Post</a></li>
@@ -100,7 +99,7 @@
                                     <li><a href="pages-login-website.html">Website Login</a></li>
                                     <li><a href="pages-login-website-light.html"> Website Login Light</a></li>
                                 </ul>
-                            </li>
+                            </li>                      
                             <li class="xn-openable">
                                 <a href="#"><span class="fa fa-plus"></span> Registration</a>
                                 <ul>                                                                        
@@ -119,10 +118,10 @@
                             </li>                            
                         </ul>
                     </li>
-                    <li class="xn-openable">
+                    <li class="xn-openable active">
                         <a href="#"><span class="fa fa-file-text-o"></span> <span class="xn-text">Layouts</span></a>
                         <ul>
-                            <li><a href="layout-boxed.html">Boxed</a></li>
+                            <li><a href="layout-boxed.html">Boxed</a></li>                            
                             <li><a href="layout-nav-toggled.html">Navigation Toggled</a></li>
                             <li><a href="layout-nav-toggled-hover.html">Nav Toggled (Hover)</a></li>
                             <li><a href="layout-nav-toggled-item-hover.html">Nav Toggled (Item Hover)</a></li>
@@ -139,7 +138,7 @@
                             <li><a href="layout-rtl.html">Layout RTL</a></li>
                             <li><a href="layout-tabbed.html">Page Tabbed</a></li>
                             <li><a href="layout-custom-header.html">Custom Header</a></li>
-                            <li><a href="layout-adaptive-panels.html">Adaptive Panels</a></li>                            
+                            <li class="active"><a href="layout-adaptive-panels.html">Adaptive Panels</a></li>
                             <li><a href="blank.html">Blank Page</a></li>
                         </ul>
                     </li>
@@ -167,7 +166,7 @@
                         <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">Forms</span></a>
                         <ul>
                             <li class="xn-openable">
-                                <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>                                
+                                <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>
                                 <ul>
                                     <li><a href="form-layouts-one-column.html"><span class="fa fa-align-justify"></span> One Column</a></li>
                                     <li><a href="form-layouts-two-column.html"><span class="fa fa-th-large"></span> Two Column</a></li>
@@ -198,7 +197,7 @@
                             <li><a href="charts-rickshaw.html">Rickshaw</a></li>
                             <li><a href="charts-other.html">Other</a></li>
                         </ul>
-                    </li>                    
+                    </li>                   
                     <li>
                         <a href="maps.html"><span class="fa fa-map-marker"></span> <span class="xn-text">Maps</span></a>
                     </li>                    
@@ -245,7 +244,7 @@
                             <input type="text" name="search" placeholder="Search..."/>
                         </form>
                     </li>   
-                    <!-- END SEARCH -->                    
+                    <!-- END SEARCH -->
                     <!-- POWER OFF -->
                     <li class="xn-icon-button pull-right last">
                         <a href="#"><span class="fa fa-power-off"></span></a>
@@ -254,7 +253,7 @@
                             <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Sign Out</a></li>
                         </ul>                        
                     </li> 
-                    <!-- END POWER OFF -->                    
+                    <!-- END POWER OFF -->
                     <!-- MESSAGES -->
                     <li class="xn-icon-button pull-right">
                         <a href="#"><span class="fa fa-comments"></span></a>
@@ -357,17 +356,176 @@
                     <!-- END LANG BAR -->
                 </ul>
                 <!-- END X-NAVIGATION VERTICAL -->                     
-
-                <!-- START BREADCRUMB -->
-                <ul class="breadcrumb">
-                    <li><a href="#">Home</a></li>                    
-                    <li class="active">Dashboard</li>
-                </ul>
-                <!-- END BREADCRUMB -->                       
                 
-                <!-- PAGE CONTENT WRAPPER -->
-                {include file=$template}
-                <!-- END PAGE CONTENT WRAPPER -->                                
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb push-down-0">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Layouts</a></li>
+                    <li class="active">Adaptive Panels</li>
+                </ul>
+                <!-- END BREADCRUMB -->                
+                
+                <!-- PAGE CONTENT WRAPPER -->                      
+                <div class="page-content-wrap page-content-adaptive">
+                    <!-- PAGE TITLE -->
+                    <div class="page-title">                    
+                        <h2><span class="fa fa-arrow-circle-o-left"></span> Adaptive Panels</h2>
+                    </div>
+                    <!-- END PAGE TITLE -->                                    
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                                                        
+                            <!-- START DEFAULT PANEL -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Panel title</h3>
+                                    <ul class="panel-controls">
+                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas dolor eu velit efficitur porttitor. In dolor est, porttitor sed risus pharetra, laoreet finibus mauris. Integer egestas vulputate turpis ut sagittis. Proin ac nulla laoreet, commodo turpis at, luctus arcu. Donec malesuada neque sed justo aliquet fermentum. Sed rhoncus faucibus dui at molestie. Duis ut leo ac justo egestas ullamcorper.</p>
+                                    <p>Pellentesque ultricies aliquet commodo. Nullam dignissim ex in porttitor luctus. Maecenas at porttitor libero, bibendum molestie felis. Duis molestie turpis et tellus efficitur elementum. Duis et tincidunt est. Praesent enim magna, vulputate ac malesuada vel, ullamcorper dignissim nulla. Nulla facilisi. In sed justo est. In sit amet elementum diam. Morbi volutpat dolor id bibendum gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vestibulum nisl sed ornare dignissim. Nam id ante augue.</p>
+                                </div>
+                            </div>
+                            <!-- END DEFAULT PANEL -->
+                            
+                        </div>
+                        <div class="col-md-6">
+                            
+                            <!-- START BASIC TABLE SAMPLE -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Basic example</h3>
+                                    <ul class="panel-controls">
+                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas dolor eu velit efficitur porttitor. In dolor est, porttitor sed risus pharetra, laoreet.</p>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>id</th>
+                                                    <th>First Name</th>
+                                                    <th>Last Name</th>
+                                                    <th>Username</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Larry</td>
+                                                    <td>the Bird</td>
+                                                    <td>@twitter</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END BASIC TABLE SAMPLE -->                            
+                            
+                        </div>
+                    </div>                    
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            
+                            <!-- START MESSAGES -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Messages</h3>
+                                    <ul class="panel-controls">
+                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span></a></li>
+                                    </ul>                                    
+                                </div>
+                                <div class="panel-body">
+                                    
+                                    <div class="messages messages-img">
+                                        <div class="item item-visible">
+                                            <div class="image">
+                                                <img src="assets/images/users/user2.jpg" alt="John Doe">
+                                            </div>
+                                            <div class="text">
+                                                <div class="heading">
+                                                    <a href="#">John Doe</a>
+                                                    <span class="date">08:33</span>
+                                                </div>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis suscipit eros vitae iaculis.
+                                            </div>
+                                        </div>
+                                        <div class="item item-visible">
+                                            <div class="image">
+                                                <img src="assets/images/users/user.jpg" alt="Dmitry Ivaniuk">
+                                            </div>                                
+                                            <div class="text">
+                                                <div class="heading">
+                                                    <a href="#">Dmitry Ivaniuk</a>
+                                                    <span class="date">08:27</span>
+                                                </div>                                    
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis suscipit eros vitae iaculis.
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                    
+                                </div>
+                            </div>
+                            <!-- END MESSAGES -->
+                            
+                        </div>
+                        <div class="col-md-6">
+                            
+                            <!-- START CONTACTS -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Contacts With Status</h3>
+                                    <ul class="panel-controls">
+                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span></a></li>
+                                    </ul>                                    
+                                </div>
+                                <div class="panel-body list-group list-group-contacts">                                
+                                    <a href="#" class="list-group-item">                                 
+                                        <div class="list-group-status status-online"></div>
+                                        <img src="assets/images/users/user.jpg" class="pull-left" alt="Dmitry Ivaniuk">
+                                        <span class="contacts-title">Dmitry Ivaniuk</span>
+                                        <p>Web Developer/Designer</p>                                                                        
+                                    </a>                                
+                                    <a href="#" class="list-group-item">                                    
+                                        <div class="list-group-status status-away"></div>
+                                        <img src="assets/images/users/user3.jpg" class="pull-left" alt="Nadia Ali">
+                                        <span class="contacts-title">Nadia Ali</span>
+                                        <p>Singer-Songwriter</p>                                    
+                                    </a>                                                                
+                                    <a href="#" class="list-group-item">         
+                                        <div class="list-group-status status-offline"></div>
+                                        <img src="assets/images/users/user2.jpg" class="pull-left" alt="John Doe">
+                                        <span class="contacts-title">John Doe</span>
+                                        <p>UI/UX Designer</p>                     
+                                    </a>                                
+                                </div>
+                            </div>                            
+                            <!-- END CONTACTS -->
+                            
+                        </div>
+                    </div>
+                    
+                </div>                
+                <!-- END PAGE CONTENT WRAPPER -->
             </div>            
             <!-- END PAGE CONTENT -->
         </div>
@@ -394,42 +552,27 @@
         <!-- END MESSAGE BOX-->
 
         <!-- START PRELOADS -->
-        <audio id="audio-alert" src="{$assets_url}audio/alert.mp3" preload="auto"></audio>
-        <audio id="audio-fail" src="{$assets_url}audio/fail.mp3" preload="auto"></audio>
-        <!-- END PRELOADS -->                  
+        <audio id="audio-alert" src="audio/alert.mp3" preload="auto"></audio>
+        <audio id="audio-fail" src="audio/fail.mp3" preload="auto"></audio>
+        <!-- END PRELOADS -->             
         
     <!-- START SCRIPTS -->
         <!-- START PLUGINS -->
-        <script type="text/javascript" src="{$assets_url}js/plugins/jquery/jquery.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/jquery/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/bootstrap/bootstrap.min.js"></script>        
+        <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
         <!-- END PLUGINS -->
 
-        <!-- START THIS PAGE PLUGINS-->        
-        <script type='text/javascript' src='{$assets_url}js/plugins/icheck/icheck.min.js'></script>        
-        <script type="text/javascript" src="{$assets_url}js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/scrolltotop/scrolltopcontrol.js"></script>
-        
-        <script type="text/javascript" src="{$assets_url}js/plugins/morris/raphael-min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/morris/morris.min.js"></script>       
-        <script type="text/javascript" src="{$assets_url}js/plugins/rickshaw/d3.v3.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/rickshaw/rickshaw.min.js"></script>
-        <script type='text/javascript' src='{$assets_url}js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js'></script>
-        <script type='text/javascript' src='{$assets_url}js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js'></script>                
-        <script type='text/javascript' src='{$assets_url}js/plugins/bootstrap/bootstrap-datepicker.js'></script>                
-        <script type="text/javascript" src="{$assets_url}js/plugins/owl/owl.carousel.min.js"></script>                 
-        
-        <script type="text/javascript" src="{$assets_url}js/plugins/moment.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/daterangepicker/daterangepicker.js"></script>
-        <!-- END THIS PAGE PLUGINS-->        
+        <!-- THIS PAGE PLUGINS -->
+        <script type="text/javascript" src="js/plugins/icheck/icheck.min.js"></script>
+        <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+        <!-- END PAGE PLUGINS -->       
 
         <!-- START TEMPLATE -->
-        <script type="text/javascript" src="{$assets_url}js/settings.js"></script>
+        <script type="text/javascript" src="js/settings.js"></script>
         
-        <script type="text/javascript" src="{$assets_url}js/plugins.js"></script>        
-        <script type="text/javascript" src="{$assets_url}js/actions.js"></script>
-        
-        <script type="text/javascript" src="{$assets_url}js/demo_dashboard.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>        
+        <script type="text/javascript" src="js/actions.js"></script>        
         <!-- END TEMPLATE -->
     <!-- END SCRIPTS -->         
     </body>

@@ -11,22 +11,22 @@
         <!-- END META SECTION -->
         
         <!-- CSS INCLUDE -->        
-        <link rel="stylesheet" type="text/css" id="theme" href="{$assets_url}css/theme-default.css"/>
-        <!-- EOF CSS INCLUDE -->                   
+        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-default.css"/>
+        <!-- EOF CSS INCLUDE -->                                             
     </head>
     <body>
         <!-- START PAGE CONTAINER -->
         <div class="page-container">
             
             <!-- START PAGE SIDEBAR -->
-            <div class="page-sidebar">
+            <div class="page-sidebar" id="tour-sidebar">
                 <!-- START X-NAVIGATION -->
                 <ul class="x-navigation">
                     <li class="xn-logo">
                         <a href="index.html">ATLANT</a>
                         <a href="#" class="x-navigation-control"></a>
                     </li>
-                    <li class="xn-profile">
+                    <li class="xn-profile" data-step="6" data-intro="Your profile" data-position="right">
                         <a href="#" class="profile-mini">
                             <img src="assets/images/users/avatar.jpg" alt="John Doe"/>
                         </a>
@@ -39,26 +39,26 @@
                                 <div class="profile-data-title">Web Developer/Designer</div>
                             </div>
                             <div class="profile-controls">
-                                <a href="pages-profile.html" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                <a href="pages-profile.html" class="profile-control-left" data-step="7" data-intro="Profile Page" data-position="right"><span class="fa fa-info"></span></a>
                                 <a href="pages-messages.html" class="profile-control-right"><span class="fa fa-envelope"></span></a>
                             </div>
                         </div>                                                                        
                     </li>
-                    <li class="xn-title">Navigation</li>
-                    <li class="xn-openable active">
+                    <li class="xn-title">Navigation</li>                    
+                    <li class="xn-openable">
                         <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Dashboards</span></a>
                         <ul>
-                            <li class="active"><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
+                            <li><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
                             <li><a href="dashboard.html"><span class="xn-text">Dashboard 2</span></a><div class="informer informer-danger">New!</div></li>
                             <li><a href="dashboard-dark.html"><span class="xn-text">Dashboard 3</span></a><div class="informer informer-danger">New!</div></li>
                         </ul>
-                    </li>                    
+                    </li>
                     <li class="xn-openable">
                         <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Pages</span></a>
                         <ul>
                             <li><a href="pages-gallery.html"><span class="fa fa-image"></span> Gallery</a></li>
                             <li><a href="pages-invoice.html"><span class="fa fa-dollar"></span> Invoice</a></li>
-                            <li><a href="pages-edit-profile.html"><span class="fa fa-wrench"></span> Edit Profile</a></li>
+                            <li><a href="pages-edit-profile.html"><span class="fa fa-wrench"></span> Edit Profile</a></li>                          
                             <li><a href="pages-profile.html"><span class="fa fa-user"></span> Profile</a></li>
                             <li><a href="pages-address-book.html"><span class="fa fa-users"></span> Address Book</a></li>
                             <li class="xn-openable">
@@ -100,7 +100,7 @@
                                     <li><a href="pages-login-website.html">Website Login</a></li>
                                     <li><a href="pages-login-website-light.html"> Website Login Light</a></li>
                                 </ul>
-                            </li>
+                            </li>                
                             <li class="xn-openable">
                                 <a href="#"><span class="fa fa-plus"></span> Registration</a>
                                 <ul>                                                                        
@@ -108,7 +108,7 @@
                                     <li><a href="pages-registration-login.html">With Login</a></li>                                    
                                 </ul>
                             </li>
-                            <li><a href="pages-forgot-password.html"><span class="fa fa-question"></span> Forgot Password</a></li>                            
+                            <li><a href="pages-forgot-password.html"><span class="fa fa-question"></span> Forgot Password</a></li>
                             <li class="xn-openable">
                                 <a href="#"><span class="fa fa-warning"></span> Error Pages</a>
                                 <ul>                                    
@@ -128,7 +128,7 @@
                             <li><a href="layout-nav-toggled-item-hover.html">Nav Toggled (Item Hover)</a></li>
                             <li><a href="layout-nav-top.html">Navigation Top</a></li>
                             <li><a href="layout-nav-right.html">Navigation Right</a></li>
-                            <li><a href="layout-nav-top-fixed.html">Top Navigation Fixed</a></li>
+                            <li><a href="layout-nav-top-fixed.html">Top Navigation Fixed</a></li>                            
                             <li><a href="layout-nav-custom.html">Custom Navigation</a></li>
                             <li><a href="layout-nav-top-custom.html">Custom Top Navigation</a></li>
                             <li><a href="layout-frame-left.html">Frame Left Column</a></li>
@@ -143,9 +143,9 @@
                             <li><a href="blank.html">Blank Page</a></li>
                         </ul>
                     </li>
-                    <li class="xn-title">Components</li>
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-cogs"></span> <span class="xn-text">UI Kits</span></a>                        
+                    <li class="xn-title">Components</li>                    
+                    <li class="xn-openable active">
+                        <a href="#"><span class="fa fa-cogs"></span> <span class="xn-text">UI Kits</span></a>
                         <ul>
                             <li><a href="ui-widgets.html"><span class="fa fa-heart"></span> Widgets</a></li>                            
                             <li><a href="ui-elements.html"><span class="fa fa-cogs"></span> Elements</a></li>
@@ -154,20 +154,20 @@
                             <li><a href="ui-icons.html"><span class="fa fa-magic"></span> Icons</a><div class="informer informer-warning">+679</div></li>
                             <li><a href="ui-typography.html"><span class="fa fa-pencil"></span> Typography</a></li>
                             <li><a href="ui-portlet.html"><span class="fa fa-th"></span> Portlet</a></li>
-                            <li><a href="ui-sliders.html"><span class="fa fa-arrows-h"></span> Sliders</a></li>
+                            <li><a href="ui-sliders.html"><span class="fa fa-arrows-h"></span> Sliders</a></li>             
                             <li><a href="ui-alerts-popups.html"><span class="fa fa-warning"></span> Alerts & Popups</a></li>                            
                             <li><a href="ui-lists.html"><span class="fa fa-list-ul"></span> Lists</a></li>
-                            <li><a href="ui-tour.html"><span class="fa fa-random"></span> Tour</a></li>
+                            <li class="active"><a href="ui-tour.html"><span class="fa fa-random"></span> Tour</a></li>
                             <li><a href="ui-nestable.html"><span class="fa fa-sitemap"></span> Nestable List</a></li>
                             <li><a href="ui-autocomplete.html"><span class="fa fa-search-plus"></span> Autocomplete</a></li>
-                            <li><a href="ui-slide-menu.html"><span class="fa fa-angle-right"></span> Slide Menu</a></li>
+                            <li><a href="ui-slide-menu.html"><span class="fa fa-angle-right"></span> Slide Menu</a></li>                            
                         </ul>
                     </li>                    
                     <li class="xn-openable">
                         <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">Forms</span></a>
                         <ul>
                             <li class="xn-openable">
-                                <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>                                
+                                <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>
                                 <ul>
                                     <li><a href="form-layouts-one-column.html"><span class="fa fa-align-justify"></span> One Column</a></li>
                                     <li><a href="form-layouts-two-column.html"><span class="fa fa-th-large"></span> Two Column</a></li>
@@ -198,7 +198,7 @@
                             <li><a href="charts-rickshaw.html">Rickshaw</a></li>
                             <li><a href="charts-other.html">Other</a></li>
                         </ul>
-                    </li>                    
+                    </li>          
                     <li>
                         <a href="maps.html"><span class="fa fa-map-marker"></span> <span class="xn-text">Maps</span></a>
                     </li>                    
@@ -222,8 +222,7 @@
                                 </ul>
                             </li>                            
                         </ul>
-                    </li>
-                    
+                    </li>                    
                 </ul>
                 <!-- END X-NAVIGATION -->
             </div>
@@ -233,10 +232,10 @@
             <div class="page-content">
                 
                 <!-- START X-NAVIGATION VERTICAL -->
-                <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+                <ul class="x-navigation x-navigation-horizontal x-navigation-panel" id="tour-top-navigation">
                     <!-- TOGGLE NAVIGATION -->
                     <li class="xn-icon-button">
-                        <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
+                        <a href="#" data-step="5" data-intro="Minimize navigation" data-position="right" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
                     </li>
                     <!-- END TOGGLE NAVIGATION -->
                     <!-- SEARCH -->
@@ -245,7 +244,7 @@
                             <input type="text" name="search" placeholder="Search..."/>
                         </form>
                     </li>   
-                    <!-- END SEARCH -->                    
+                    <!-- END SEARCH -->
                     <!-- POWER OFF -->
                     <li class="xn-icon-button pull-right last">
                         <a href="#"><span class="fa fa-power-off"></span></a>
@@ -254,7 +253,7 @@
                             <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Sign Out</a></li>
                         </ul>                        
                     </li> 
-                    <!-- END POWER OFF -->                    
+                    <!-- END POWER OFF -->
                     <!-- MESSAGES -->
                     <li class="xn-icon-button pull-right">
                         <a href="#"><span class="fa fa-comments"></span></a>
@@ -356,19 +355,87 @@
                     </li> 
                     <!-- END LANG BAR -->
                 </ul>
-                <!-- END X-NAVIGATION VERTICAL -->                     
-
-                <!-- START BREADCRUMB -->
-                <ul class="breadcrumb">
-                    <li><a href="#">Home</a></li>                    
-                    <li class="active">Dashboard</li>
-                </ul>
-                <!-- END BREADCRUMB -->                       
+                <!-- END X-NAVIGATION VERTICAL -->                   
                 
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb" id="tour-breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">UI Kits</a></li>
+                    <li class="active">Tour</li>
+                </ul>
+                <!-- END BREADCRUMB -->
+
+                <!-- PAGE TITLE -->
+                <div class="page-title" id="trour-page-title">
+                    <h2><span class="fa fa-arrow-circle-o-left"></span> Tour</h2>
+                </div>
+                <!-- END PAGE TITLE -->                
+               
                 <!-- PAGE CONTENT WRAPPER -->
-                {include file=$template}
-                <!-- END PAGE CONTENT WRAPPER -->                                
-            </div>            
+                <div class="page-content-wrap">                
+                
+                    <div class="row">
+                        <div class="col-md-12">
+                            
+                            <!-- Intro.js Plugin -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title" data-step="1" data-intro="First step of this awesome plugin" data-position="right">Intro.js</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Better introductions for websites and features with a step-by-step guide for your projects.</p>
+                                    <button onclick="introJs().start();" class="btn btn-danger" data-step="4" data-intro="Start was here... and here is the end :(" data-position="right">Start Tour</button>
+                                </div>
+                                <div class="panel-body">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-6" data-step="2" data-intro="Ok, wasn't that fun?" data-position="top">
+                                            <h3><strong>Section</strong> One</h3>
+                                            <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit. Suspendisse ac sollicitudin nulla. Sed venenatis ut dolor id interdum. Nullam dapibus justo quis molestie volutpat.</p> 
+                                            <p>Aliquam nulla velit, consequat non nisi eu, ornare pharetra velit. <strong>Donec dapibus ipsum</strong> eu tempor gravida. Donec mattis euismod erat, quis dignissim nulla laoreet sed. Morbi quis porttitor augue.</p>                                            
+                                        </div>
+
+                                        <div class="col-md-6" data-step="3" data-intro="More features, more fun."  data-position="left">
+                                            <h4><strong>Section</strong> Two</h4>
+                                            <p>Duis vitae iaculis sapien. Duis et finibus felis. Donec porttitor facilisis lacus, et tempus est volutpat eget. Quisque arcu tortor, condimentum sit amet mi at, fermentum sollicitudin nibh.</p>
+                                            <p>Sed ullamcorper non est vitae blandit. Integer blandit justo vitae mauris ultrices, eu cursus tortor iaculis. Donec sit amet dui erat. Aenean eget blandit leo. Ut in luctus felis, in placerat lacus.</p>
+                                        </div>
+                                    </div>                                    
+
+                                </div>                           
+                            </div>                        
+                            <!-- END Intro.js Plugin -->
+                            
+                            <!-- Bootstrap Tour Plugin -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Bootstrap-tour.js</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <p>This tour plugin based on Bootstrap, and using as default Bootstrap Popover. Also this plugin can be used without Bootstrap.</p>
+                                            <button class="btn btn-danger start-tour push-down-10">Start Tour</button>                                        
+                                        </div>
+                                        <div class="col-md-4" id="tour-content-1">
+                                            <h4>Heading h4</h4>
+                                            <p><strong>In quis tincidunt sem</strong>. Vestibulum risus quam, bibendum et eleifend eget, finibus vel felis. Nam viverra est neque. Suspendisse eget mauris non quam venenatis porta non a eros. Donec posuere, lorem ut commodo elementum, lectus erat maximus massa, <strong>vitae vehicula arcu</strong> lectus ac dolor.</p>
+                                        </div>
+                                        <div class="col-md-4" id="tour-content-2">
+                                            <h4>Heading h4</h4>
+                                            <p>Vivamus ac rhoncus felis. Phasellus tincidunt consectetur dapibus. <strong>Nulla at tortor sed lectus lacinia vehicula</strong>. Phasellus non ex quis purus facilisis viverra et vitae ex. <strong>Ut tempor condimentum blandit</strong>.</p>
+                                        </div>
+                                    </div>
+
+                                </div>                           
+                            </div>
+                            <!-- END Bootstrap Tour Plugin -->
+                        </div>                        
+                    </div>
+                
+                </div>
+                <!-- END PAGE CONTENT WRAPPER -->                
+            </div>    
             <!-- END PAGE CONTENT -->
         </div>
         <!-- END PAGE CONTAINER -->
@@ -394,44 +461,72 @@
         <!-- END MESSAGE BOX-->
 
         <!-- START PRELOADS -->
-        <audio id="audio-alert" src="{$assets_url}audio/alert.mp3" preload="auto"></audio>
-        <audio id="audio-fail" src="{$assets_url}audio/fail.mp3" preload="auto"></audio>
-        <!-- END PRELOADS -->                  
+        <audio id="audio-alert" src="audio/alert.mp3" preload="auto"></audio>
+        <audio id="audio-fail" src="audio/fail.mp3" preload="auto"></audio>
+        <!-- END PRELOADS -->                       
         
     <!-- START SCRIPTS -->
         <!-- START PLUGINS -->
-        <script type="text/javascript" src="{$assets_url}js/plugins/jquery/jquery.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/jquery/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/bootstrap/bootstrap.min.js"></script>        
+        <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
         <!-- END PLUGINS -->
-
-        <!-- START THIS PAGE PLUGINS-->        
-        <script type='text/javascript' src='{$assets_url}js/plugins/icheck/icheck.min.js'></script>        
-        <script type="text/javascript" src="{$assets_url}js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/scrolltotop/scrolltopcontrol.js"></script>
         
-        <script type="text/javascript" src="{$assets_url}js/plugins/morris/raphael-min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/morris/morris.min.js"></script>       
-        <script type="text/javascript" src="{$assets_url}js/plugins/rickshaw/d3.v3.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/rickshaw/rickshaw.min.js"></script>
-        <script type='text/javascript' src='{$assets_url}js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js'></script>
-        <script type='text/javascript' src='{$assets_url}js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js'></script>                
-        <script type='text/javascript' src='{$assets_url}js/plugins/bootstrap/bootstrap-datepicker.js'></script>                
-        <script type="text/javascript" src="{$assets_url}js/plugins/owl/owl.carousel.min.js"></script>                 
+        <!-- THIS PAGE PLUGINS -->
+        <script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>
+        <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
         
-        <script type="text/javascript" src="{$assets_url}js/plugins/moment.min.js"></script>
-        <script type="text/javascript" src="{$assets_url}js/plugins/daterangepicker/daterangepicker.js"></script>
-        <!-- END THIS PAGE PLUGINS-->        
-
+        <script type="text/javascript" src="js/plugins/tour/bootstrap-tour-standalone.min.js"></script>        
+        <script type="text/javascript" src="js/plugins/tour/intro.min.js"></script>
+        <!-- END PAGE PLUGINS -->        
+        
         <!-- START TEMPLATE -->
-        <script type="text/javascript" src="{$assets_url}js/settings.js"></script>
+        <script type="text/javascript" src="js/settings.js"></script>
         
-        <script type="text/javascript" src="{$assets_url}js/plugins.js"></script>        
-        <script type="text/javascript" src="{$assets_url}js/actions.js"></script>
-        
-        <script type="text/javascript" src="{$assets_url}js/demo_dashboard.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>        
+        <script type="text/javascript" src="js/actions.js"></script>        
         <!-- END TEMPLATE -->
     <!-- END SCRIPTS -->         
+        
+    <script>
+        $(function(){
+            var tour = new Tour({
+                debug: true,
+                storage: false,                
+                steps: [
+                {
+                  element: "#tour-sidebar",
+                  title: "Sidebar Navigation",
+                  content: "It's very powerful tool in template. It has many options and features.",
+                  placement: "right"
+                },
+                {
+                  element: "#tour-top-navigation",
+                  title: "Top Navigation",
+                  content: "Used as panel, but it also can be used as navigation with drop-down menu",
+                  placement: "bottom"
+                },
+                {
+                  element: "#tour-content-1",
+                  title: "Content Example",
+                  content: "Sample of left direction of popover block",
+                  placement: "left"
+                },
+                {
+                  element: "#tour-content-2",
+                  title: "Content Example 2",
+                  content: "Sample of top direction of popover block",
+                  placement: "top"
+                }
+              ]});              
+              //tour1.init();      
+              $(".start-tour").on("click",function(){
+                  tour.start();
+              });
+        });
+        
+    </script>
+    
     </body>
 </html>
 
