@@ -28,14 +28,14 @@
                     </li>
                     <li class="xn-profile">
                         <a href="#" class="profile-mini">
-                            <img src="assets/images/users/avatar.jpg" alt="John Doe"/>
+                            <img src="http://localhost/KarirKu/assets/images/users/avatar.jpg" alt="John Doe"/>
                         </a>
                         <div class="profile">
                             <div class="profile-image">
-                                <img src="assets/images/users/avatar.jpg" alt="John Doe"/>
+                                <img src="http://localhost/KarirKu/assets/assets/images/users/jkw.jpg" alt="John Doe"/>
                             </div>
                             <div class="profile-data">
-                                <div class="profile-data-name">John Doe</div>
+                                <div class="profile-data-name">Joko Widodo</div>
                                 <div class="profile-data-title">Web Developer/Designer</div>
                             </div>
                             <div class="profile-controls">
@@ -46,7 +46,7 @@
                     </li>
                     <li class="xn-title">Navigation</li>
                     <li class="xn-openable active">
-                        <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Dashboards</span></a>
+                        <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Timeline</span></a>
                         <ul>
                             <li class="active"><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
                             <li><a href="dashboard.html"><span class="xn-text">Dashboard 2</span></a><div class="informer informer-danger">New!</div></li>
@@ -54,7 +54,7 @@
                         </ul>
                     </li>                    
                     <li class="xn-openable">
-                        <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Pages</span></a>
+                        <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Profile</span></a>
                         <ul>
                             <li><a href="pages-gallery.html"><span class="fa fa-image"></span> Gallery</a></li>
                             <li><a href="pages-invoice.html"><span class="fa fa-dollar"></span> Invoice</a></li>
@@ -120,7 +120,7 @@
                         </ul>
                     </li>
                     <li class="xn-openable">
-                        <a href="#"><span class="fa fa-file-text-o"></span> <span class="xn-text">Layouts</span></a>
+                        <a href="#"><span class="fa fa-file-text-o"></span> <span class="xn-text">Assessment</span></a>
                         <ul>
                             <li><a href="layout-boxed.html">Boxed</a></li>
                             <li><a href="layout-nav-toggled.html">Navigation Toggled</a></li>
@@ -143,9 +143,8 @@
                             <li><a href="blank.html">Blank Page</a></li>
                         </ul>
                     </li>
-                    <li class="xn-title">Components</li>
                     <li class="xn-openable">
-                        <a href="#"><span class="fa fa-cogs"></span> <span class="xn-text">UI Kits</span></a>                        
+                        <a href="#"><span class="fa fa-cogs"></span> <span class="xn-text">Friends</span></a>                        
                         <ul>
                             <li><a href="ui-widgets.html"><span class="fa fa-heart"></span> Widgets</a></li>                            
                             <li><a href="ui-elements.html"><span class="fa fa-cogs"></span> Elements</a></li>
@@ -164,7 +163,7 @@
                         </ul>
                     </li>                    
                     <li class="xn-openable">
-                        <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">Forms</span></a>
+                        <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">Plan</span></a>
                         <ul>
                             <li class="xn-openable">
                                 <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>                                
@@ -182,49 +181,7 @@
                             <li><a href="form-file-handling.html"><span class="fa fa-floppy-o"></span> File Handling</a></li>
                         </ul>
                     </li>
-                    <li class="xn-openable">
-                        <a href="tables.html"><span class="fa fa-table"></span> <span class="xn-text">Tables</span></a>
-                        <ul>                            
-                            <li><a href="table-basic.html"><span class="fa fa-align-justify"></span> Basic</a></li>
-                            <li><a href="table-datatables.html"><span class="fa fa-sort-alpha-desc"></span> Data Tables</a></li>
-                            <li><a href="table-export.html"><span class="fa fa-download"></span> Export Tables</a></li>                            
-                        </ul>
-                    </li>
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-bar-chart-o"></span> <span class="xn-text">Charts</span></a>
-                        <ul>
-                            <li><a href="charts-morris.html">Morris</a></li>
-                            <li><a href="charts-nvd3.html">NVD3</a></li>
-                            <li><a href="charts-rickshaw.html">Rickshaw</a></li>
-                            <li><a href="charts-other.html">Other</a></li>
-                        </ul>
-                    </li>                    
-                    <li>
-                        <a href="maps.html"><span class="fa fa-map-marker"></span> <span class="xn-text">Maps</span></a>
-                    </li>                    
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-sitemap"></span> <span class="xn-text">Navigation Levels</span></a>
-                        <ul>                            
-                            <li class="xn-openable">
-                                <a href="#">Second Level</a>
-                                <ul>
-                                    <li class="xn-openable">
-                                        <a href="#">Third Level</a>
-                                        <ul>
-                                            <li class="xn-openable">
-                                                <a href="#">Fourth Level</a>
-                                                <ul>
-                                                    <li><a href="#">Fifth Level</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>                            
-                        </ul>
-                    </li>
-                    
-                </ul>
+
                 <!-- END X-NAVIGATION -->
             </div>
             <!-- END PAGE SIDEBAR -->
@@ -235,9 +192,7 @@
                 <!-- START X-NAVIGATION VERTICAL -->
                 <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
                     <!-- TOGGLE NAVIGATION -->
-                    <li class="xn-icon-button">
-                        <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
-                    </li>
+                    
                     <!-- END TOGGLE NAVIGATION -->
                     <!-- SEARCH -->
                     <li class="xn-search">
@@ -346,14 +301,7 @@
                     </li>
                     <!-- END TASKS -->
                     <!-- LANG BAR -->
-                    <li class="xn-icon-button pull-right">
-                        <a href="#"><span class="flag flag-gb"></span></a>
-                        <ul class="xn-drop-left xn-drop-white animated zoomIn">
-                            <li><a href="#"><span class="flag flag-gb"></span> English</a></li>
-                            <li><a href="#"><span class="flag flag-de"></span> Deutsch</a></li>
-                            <li><a href="#"><span class="flag flag-cn"></span> Chinese</a></li>
-                        </ul>                        
-                    </li> 
+                    
                     <!-- END LANG BAR -->
                 </ul>
                 <!-- END X-NAVIGATION VERTICAL -->                     
