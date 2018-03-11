@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-02 13:12:42
+/* Smarty version 3.1.30, created on 2018-03-02 13:24:35
   from "D:\www\gitlab\KarirKu\application\views\main_template.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a993fbaf08dd4_93302875',
+  'unifunc' => 'content_5a994283197cd5_96881464',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ba80cb97ea2c7d78b2eef95ce92bf1aae5e53d48' => 
     array (
       0 => 'D:\\www\\gitlab\\KarirKu\\application\\views\\main_template.tpl',
-      1 => 1519992758,
+      1 => 1519993473,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a993fbaf08dd4_93302875 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a994283197cd5_96881464 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -71,7 +71,7 @@ css/theme-default.css"/>
                     </li>
                     <li class="xn-title">Navigation</li>
                     <li class="xn-openable active">
-                        <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Dashboards</span></a>
+                        <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Timeline</span></a>
                         <ul>
                             <li class="active"><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
                             <li><a href="dashboard.html"><span class="xn-text">Dashboard 2</span></a><div class="informer informer-danger">New!</div></li>
@@ -391,9 +391,11 @@ css/theme-default.css"/>
                 <!-- END BREADCRUMB -->                       
                 
                 <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
                 <?php $_smarty_tpl->_subTemplateRender($_smarty_tpl->tpl_vars['template']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
 ?>
 
+                </div>
                 <!-- END PAGE CONTENT WRAPPER -->                                
             </div>            
             <!-- END PAGE CONTENT -->

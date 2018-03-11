@@ -11,7 +11,11 @@ class Homepage extends MY_Controller {
 
 	public function index()
 	{
-    	$this->layout('test', 'Beranda');
+    	$this->layout('test', '');
+	}
+	public function daftar()
+	{
+    	$this->layout('form', '');
 	}
 
 	public function entri_agen()

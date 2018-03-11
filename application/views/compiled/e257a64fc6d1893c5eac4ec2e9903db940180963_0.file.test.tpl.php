@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-02 13:12:43
+/* Smarty version 3.1.30, created on 2018-03-02 13:21:23
   from "D:\www\gitlab\KarirKu\application\modules\home\views\test.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a993fbb03d479_52989329',
+  'unifunc' => 'content_5a9941c37898b4_40184843',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e257a64fc6d1893c5eac4ec2e9903db940180963' => 
     array (
       0 => 'D:\\www\\gitlab\\KarirKu\\application\\modules\\home\\views\\test.tpl',
-      1 => 1519992759,
+      1 => 1519993271,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a993fbb03d479_52989329 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a9941c37898b4_40184843 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<div class="page-content-wrap">
-                    
+                   
                     <!-- START WIDGETS -->                    
                     <div class="row">
                         <div class="col-md-3">
@@ -374,6 +373,5 @@ function content_5a993fbb03d479_52989329 (Smarty_Internal_Template $_smarty_tpl)
                         </div>                                                
                     </div>                    
                     <!-- END DASHBOARD CHART -->
-                    
-                </div><?php }
+                    <?php }
 }

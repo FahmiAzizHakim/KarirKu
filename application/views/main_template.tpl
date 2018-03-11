@@ -46,7 +46,7 @@
                     </li>
                     <li class="xn-title">Navigation</li>
                     <li class="xn-openable active">
-                        <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Dashboards</span></a>
+                        <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Timeline</span></a>
                         <ul>
                             <li class="active"><a href="index.html"><span class="xn-text">Dashboard 1</span></a></li>
                             <li><a href="dashboard.html"><span class="xn-text">Dashboard 2</span></a><div class="informer informer-danger">New!</div></li>
@@ -366,7 +366,9 @@
                 <!-- END BREADCRUMB -->                       
                 
                 <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
                 {include file=$template}
+                </div>
                 <!-- END PAGE CONTENT WRAPPER -->                                
             </div>            
             <!-- END PAGE CONTENT -->
