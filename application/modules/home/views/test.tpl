@@ -1,5 +1,4 @@
-<div class="page-content-wrap">
-                    
+                   
                     <!-- START WIDGETS -->                    
                     <div class="row">
                         <div class="col-md-3">
@@ -351,4 +350,3 @@
                     </div>                    
                     <!-- END DASHBOARD CHART -->
                     
-                </div>

@@ -220,7 +220,9 @@
               
                 
                 <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
                 {include file=$template}
+                </div>
                 <!-- END PAGE CONTENT WRAPPER -->                                
             </div>            
             <!-- END PAGE CONTENT -->
