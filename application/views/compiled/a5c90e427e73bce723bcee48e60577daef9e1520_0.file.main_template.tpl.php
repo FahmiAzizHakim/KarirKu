@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-14 11:20:54
+/* Smarty version 3.1.30, created on 2018-03-14 12:15:14
   from "C:\xampp\htdocs\KarirKu\application\views\main_template.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5aa8f7867ebbd0_89176282',
+  'unifunc' => 'content_5aa904420cddd6_79884488',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a5c90e427e73bce723bcee48e60577daef9e1520' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\views\\main_template.tpl',
-      1 => 1521022853,
+      1 => 1521026101,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5aa8f7867ebbd0_89176282 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aa904420cddd6_79884488 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -246,9 +246,11 @@ Assessment"><span class="fa fa-file-text-o"></span> <span class="xn-text">Assess
               
                 
                 <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
                 <?php $_smarty_tpl->_subTemplateRender($_smarty_tpl->tpl_vars['template']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
 ?>
 
+                </div>
                 <!-- END PAGE CONTENT WRAPPER -->                                
             </div>            
             <!-- END PAGE CONTENT -->

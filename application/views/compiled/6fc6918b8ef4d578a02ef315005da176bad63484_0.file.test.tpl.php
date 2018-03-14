@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-06 12:07:00
+/* Smarty version 3.1.30, created on 2018-03-14 12:15:14
   from "C:\xampp\htdocs\KarirKu\application\modules\home\views\test.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a9e765428c581_46206430',
+  'unifunc' => 'content_5aa90442118156_08654041',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6fc6918b8ef4d578a02ef315005da176bad63484' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\modules\\home\\views\\test.tpl',
-      1 => 1519992978,
+      1 => 1521026101,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a9e765428c581_46206430 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aa90442118156_08654041 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<div class="page-content-wrap">
-                    
+                   
                     <!-- START WIDGETS -->                    
                     <div class="row">
                         <div class="col-md-3">
@@ -374,6 +373,5 @@ function content_5a9e765428c581_46206430 (Smarty_Internal_Template $_smarty_tpl)
                         </div>                                                
                     </div>                    
                     <!-- END DASHBOARD CHART -->
-                    
-                </div><?php }
+                    <?php }
 }
