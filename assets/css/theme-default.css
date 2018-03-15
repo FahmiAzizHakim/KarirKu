@@ -7042,11 +7042,11 @@ td.dataTables_empty {
   left: -20px;
 }
 .timeline.timeline-right:before {
-  left: 160px;
+ ;
 }
 .timeline.timeline-right .timeline-item {
   width: 100%;
-  padding-left: 210px;
+  padding-left: 0px;
 }
 .timeline.timeline-right .timeline-item.timeline-main {
   width: 160px;

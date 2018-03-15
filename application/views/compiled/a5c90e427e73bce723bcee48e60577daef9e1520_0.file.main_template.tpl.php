@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-14 12:15:14
+/* Smarty version 3.1.30, created on 2018-03-15 08:28:58
   from "C:\xampp\htdocs\KarirKu\application\views\main_template.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5aa904420cddd6_79884488',
+  'unifunc' => 'content_5aaa20bab345c3_17764378',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a5c90e427e73bce723bcee48e60577daef9e1520' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\views\\main_template.tpl',
-      1 => 1521026101,
+      1 => 1521098932,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5aa904420cddd6_79884488 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aaa20bab345c3_17764378 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +48,7 @@ css/theme-default.css"/>
                 <!-- START X-NAVIGATION -->
                 <ul class="x-navigation">
                     <li class="xn-logo">
-                        <a href="index.html">KarirKu</a>
+                        <a href="http://localhost/KarirKu/home/homepage">KarirKu</a>
                         <a href="#" class="x-navigation-control"></a>
                     </li>
                     <li class="xn-profile">
@@ -71,10 +71,12 @@ css/theme-default.css"/>
                     </li>
                     <li class="xn-title">Navigation</li>
                     <li class="active">
-                        <a href="#"><span class="fa fa-dashboard"></span> <span class="xn-text">Timeline</span></a>
+                        <a href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+Timeline"><span class="fa fa-dashboard"></span> <span class="xn-text">Timeline</span></a>
                     </li>                    
                     <li class="active">
-                        <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Profile</span></a>
+                        <a href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+Profile"><span class="fa fa-files-o"></span> <span class="xn-text">Profile</span></a>
                     </li>
                     <li class="active">
                         <a href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
