@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-15 09:14:28
+/* Smarty version 3.1.30, created on 2018-03-15 10:11:27
   from "C:\xampp\htdocs\KarirKu\application\modules\Timeline\views\Timeline.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5aaa2b64b4fb42_42599881',
+  'unifunc' => 'content_5aaa38bf4009c2_97765212',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd41c36ca040aa6c48b0c1bf135d61b1baca29190' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\modules\\Timeline\\views\\Timeline.tpl',
-      1 => 1521101667,
+      1 => 1521105086,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5aaa2b64b4fb42_42599881 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aaa38bf4009c2_97765212 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -85,10 +85,13 @@ function content_5aaa2b64b4fb42_42599881 (Smarty_Internal_Template $_smarty_tpl)
                             <!-- END NEW RECORD -->
                             
                         </div>
+
                     </div>
+
+
                     
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-8">
                             
                             <!-- START TIMELINE -->
                             <div class="timeline timeline-right">
@@ -269,6 +272,47 @@ function content_5aaa2b64b4fb42_42599881 (Smarty_Internal_Template $_smarty_tpl)
                                 
                             </div>
                             <!-- END TIMELINE -->
+</div>
+                        <div class="col-md-4">
+                            
+                            <!-- START PROJECTS BLOCK -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                                                      
+                                    <ul class="panel-controls" style="margin-top: 2px;">
+                                        <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                        <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>                                        
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                            </ul>                                        
+                                        </li>                                        
+                                    </ul>
+                                </div>
+                                <div class="panel-body panel-body-table">
+                                    
+                                    <div class="table-responsive">
+                                        <table class="table table-condensed table-bordered table-striped">
+                                            <thead>
+                                                <a class="gallery-item" href="http://localhost/KarirKu/assets/assets/images/gallery/space-2.jpg" title="Space picture 2" data-gallery>
+                                                <div class="image">
+                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/space-2.jpg" alt="Space picture 2"/>    
+                                                <ul class="gallery-item-controls">
+             
+                                                </ul>                                                                    
+                                                </div>
+                              
+                                                 </a>
+                                            </thead>
+                                        </table>
+                                            
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- END PROJECTS BLOCK -->
                             
                         </div>
                     </div>
