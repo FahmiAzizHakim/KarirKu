@@ -23,16 +23,16 @@
                 <!-- START X-NAVIGATION -->
                 <ul class="x-navigation">
                     <li class="xn-logo">
-                        <a href="http://localhost/KarirKu/home/homepage">KarirKu</a>
+                        <a href="{base_url}home/homepage">KarirKu</a>
                         <a href="#" class="x-navigation-control"></a>
                     </li>
                     <li class="xn-profile">
                         <a href="#" class="profile-mini">
-                            <img src="http://localhost/KarirKu/assets/images/users/avatar.jpg" alt="John Doe"/>
+                            <img src="{assets_url}images/users/avatar.jpg" alt="John Doe"/>
                         </a>
                         <div class="profile">
                             <div class="profile-image">
-                                <img src="http://localhost/KarirKu/assets/assets/images/users/jkw.jpg" alt="John Doe"/>
+                                <img src="{assets_url}assets/images/users/jkw.jpg" alt="John Doe"/>
                             </div>
                             <div class="profile-data">
                                 <div class="profile-data-name">Joko Widodo</div>

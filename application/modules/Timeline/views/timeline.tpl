@@ -77,10 +77,10 @@
                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/> <a href="#">John Doe</a> added article <a href="#">Lorem ipsum dolor sit amet</a>
+                                            <img src="{assets_url}assets/images/users/user2.jpg"/> <a href="#">John Doe</a> added article <a href="#">Lorem ipsum dolor sit amet</a>
                                         </div>
                                         <div class="timeline-body">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-4.jpg" class="img-text" width="150" align="left"/>
+                                            <img src="{assets_url}assets/images/gallery/nature-4.jpg" class="img-text" width="150" align="left"/>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus dolor id orci lacinia, eget aliquam velit consequat.</p>
                                             <p>Vivamus at tincidunt lectus, faucibus condimentum quam. Duis facilisis sem sed eros malesuada, vel dignissim diam ornare. Etiam rhoncus, nibh non auctor mattis, ligula diam mattis dolor, non tincidunt lectus velit nec metus. 
                                                Phasellus dictum justo vitae ornare lobortis. Integer ut lectus vel mauris tempor ultricies eget vitae turpis. Sed eleifend odio quis rutrum volutpat.</p>
@@ -93,7 +93,7 @@
                                         </div>
                                         <div class="timeline-body comments">
                                             <div class="comment-item">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user4.jpg"/>
+                                                <img src="{assets_url}assets/images/users/user4.jpg"/>
                                                 <p class="comment-head">
                                                     <a href="#">Brad Pitt</a> <span class="text-muted">@bradpitt</span>
                                                 </p>
@@ -120,30 +120,30 @@
                                    
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user.jpg"/> <a href="#">Dmitry Ivaniuk</a> posted <a href="#">@Nature</a> images
+                                            <img src="{assets_url}assets/images/users/user.jpg"/> <a href="#">Dmitry Ivaniuk</a> posted <a href="#">@Nature</a> images
                                         </div>
                                         <div class="timeline-body" id="links">                                            
                                             <div class="row">
                                                 <div class="col-md-4">
-                                                    <a href="http://localhost/KarirKu/assets/assets/images/gallery/nature-1.jpg" title="Nature Image 1" data-gallery>
-                                                        <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-1.jpg" class="img-responsive img-text"/>
+                                                    <a href="{assets_url}assets/images/gallery/nature-1.jpg" title="Nature Image 1" data-gallery>
+                                                        <img src="{assets_url}assets/images/gallery/nature-1.jpg" class="img-responsive img-text"/>
                                                     </a>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <a href="http://localhost/KarirKu/assets/assets/images/gallery/nature-2.jpg" title="Nature Image 2" data-gallery>
-                                                        <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-2.jpg" class="img-responsive img-text"/>
+                                                    <a href="{assets_url}assets/images/gallery/nature-2.jpg" title="Nature Image 2" data-gallery>
+                                                        <img src="{assets_url}assets/images/gallery/nature-2.jpg" class="img-responsive img-text"/>
                                                     </a>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <a href="http://localhost/KarirKu/assets/assets/images/gallery/nature-3.jpg" title="Nature Image 3" data-gallery>
-                                                        <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-3.jpg" class="img-responsive img-text"/>
+                                                    <a href="{assets_url}assets/images/gallery/nature-3.jpg" title="Nature Image 3" data-gallery>
+                                                        <img src="{assets_url}assets/images/gallery/nature-3.jpg" class="img-responsive img-text"/>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="timeline-body comments">
                                             <div class="comment-item">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/>
+                                                <img src="{assets_url}assets/images/users/user2.jpg"/>
                                                 <p class="comment-head">
                                                     <a href="#">John Doe</a> <span class="text-muted">@johndoe</span>
                                                 </p>
@@ -163,12 +163,12 @@
                                 
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading" style="padding-bottom: 10px;">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/> 
+                                            <img src="{assets_url}assets/images/users/user2.jpg"/> 
                                             <a href="#">John Doe</a> joined group <a href="#">Web Developers</a>
                                         </div>     
                                         <div class="timeline-body comments">
                                             <div class="comment-item">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user.jpg"/>
+                                                <img src="{assets_url}assets/images/users/user.jpg"/>
                                                 <p class="comment-head">
                                                     <a href="#">Dmitry Ivaniuk</a> <span class="text-muted">@Aqvatarius</span>
                                                 </p>
@@ -176,7 +176,7 @@
                                                 <small class="text-muted">5 min ago</small>
                                             </div>
                                             <div class="comment-item">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/>
+                                                <img src="{assets_url}assets/images/users/user2.jpg"/>
                                                 <p class="comment-head">
                                                     <a href="#">John Doe</a> <span class="text-muted">@johndoe</span>
                                                 </p>
@@ -198,7 +198,7 @@
                                             <div id="google_ptm_map" style="width: 100%; height: 150px;"></div>
                                         </div>                         
                                         <div class="timeline-heading">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/> <a href="#">John Doe</a> invite you to <a href="#">@Event</a>
+                                            <img src="{assets_url}assets/images/users/user2.jpg"/> <a href="#">John Doe</a> invite you to <a href="#">@Event</a>
                                         </div>
                                     </div>
                                 </div>
@@ -208,11 +208,11 @@
                                 <div class="timeline-item timeline-item-right">
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading" style="padding-bottom: 10px;">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user3.jpg"/>
+                                            <img src="{assets_url}assets/images/users/user3.jpg"/>
                                             <a href="#">Nadia Ali</a> added to friends 
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user.jpg"/>
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/>
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user4.jpg"/>
+                                            <img src="{assets_url}assets/images/users/user.jpg"/>
+                                            <img src="{assets_url}assets/images/users/user2.jpg"/>
+                                            <img src="{assets_url}assets/images/users/user4.jpg"/>
                                         </div>                                        
                                         <div class="timeline-body comments">
                                             <div class="comment-write">                                                
@@ -230,11 +230,11 @@
                                 
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading padding-bottom-0" style="padding-bottom: 10px;">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/>
+                                            <img src="{assets_url}assets/images/users/user2.jpg"/>
                                             <a href="#">John Doe</a> update user image                                            
                                         </div>                                        
                                         <div class="timeline-body text-center">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg" width="100" class="img-circle img-thumbnail"/>
+                                            <img src="{assets_url}assets/images/users/user2.jpg" width="100" class="img-circle img-thumbnail"/>
                                         </div>
                                         <div class="timeline-body comments">
                                             <div class="comment-write">                                                
@@ -272,9 +272,9 @@
                                     <div class="table-responsive">
                                         <table class="table table-condensed table-bordered table-striped">
                                             <thead>
-                                                <a class="gallery-item" href="http://localhost/KarirKu/assets/assets/images/gallery/space-2.jpg" title="Space picture 2" data-gallery>
+                                                <a class="gallery-item" href="{assets_url}assets/images/gallery/space-2.jpg" title="Space picture 2" data-gallery>
                                                 <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/space-2.jpg" alt="Space picture 2"/>    
+                                                <img src="{assets_url}assets/images/gallery/space-2.jpg" alt="Space picture 2"/>    
                                                 <ul class="gallery-item-controls">
              
                                                 </ul>                                                                    
