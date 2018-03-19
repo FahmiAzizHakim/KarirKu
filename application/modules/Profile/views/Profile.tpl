@@ -140,8 +140,8 @@
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">21:37</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">21:37</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-users"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading" style="padding-bottom: 10px;">
                                             <img src="{$assets_url}assets/images/users/user3.jpg"/>
@@ -177,8 +177,8 @@
 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">20:23</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-reply"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">20:23</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-reply"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading padding-bottom-0">
                                             <img src="{$assets_url}assets/images/users/user2.jpg"/> <a href="#">John Doe</a> posted article <a href="#">How to...?</a>
@@ -214,8 +214,8 @@
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">20:23</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-info-circle"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">20:23</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-info-circle"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading padding-bottom-0">
                                             <img src="{$assets_url}assets/images/users/user3.jpg"/> <a href="#">Nadia Ali</a> changed status to:
@@ -229,8 +229,8 @@
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">18:34</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-photo"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">18:34</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-photo"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading">
                                             <img src="{$assets_url}assets/images/users/user3.jpg"/> <a href="#">Nadia Ali</a> added images to gallery
@@ -271,8 +271,8 @@
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">15:21</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">15:21</div>
+                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading" style="padding-bottom: 10px;">
                                             <img src="{$assets_url}assets/images/users/user3.jpg"/>

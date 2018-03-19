@@ -6853,7 +6853,7 @@ td.dataTables_empty {
   box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1);
 }
 .timeline {
-  float: left;
+  /*float: left;*/
   width: 100%;
   position: relative;
   padding: 0px;
@@ -7046,11 +7046,11 @@ td.dataTables_empty {
 }
 .timeline.timeline-right .timeline-item {
   width: 100%;
-  padding-left: 210px;
+  /*padding-left: 210px;*/
 }
 .timeline.timeline-right .timeline-item.timeline-main {
   width: 160px;
-  padding-left: 0px;
+  /*padding-left: 0px;*/
 }
 .timeline.timeline-right .timeline-item .timeline-item-content {
   width: 100%;
