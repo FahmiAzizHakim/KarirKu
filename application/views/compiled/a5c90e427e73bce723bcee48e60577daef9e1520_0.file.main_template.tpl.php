@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-19 08:51:23
+/* Smarty version 3.1.30, created on 2018-03-19 09:22:43
   from "C:\xampp\htdocs\KarirKu\application\views\main_template.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5aaf6bfb2d6900_57034918',
+  'unifunc' => 'content_5aaf7353d98783_73985360',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a5c90e427e73bce723bcee48e60577daef9e1520' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\views\\main_template.tpl',
-      1 => 1521445881,
+      1 => 1521447759,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5aaf6bfb2d6900_57034918 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aaf7353d98783_73985360 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,16 +48,19 @@ css/theme-default.css"/>
                 <!-- START X-NAVIGATION -->
                 <ul class="x-navigation">
                     <li class="xn-logo">
-                        <a href="http://localhost/KarirKu/home/homepage">KarirKu</a>
+                        <a href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+home/homepage">KarirKu</a>
                         <a href="#" class="x-navigation-control"></a>
                     </li>
                     <li class="xn-profile">
                         <a href="#" class="profile-mini">
-                            <img src="http://localhost/KarirKu/assets/images/users/avatar.jpg" alt="John Doe"/>
+                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+images/users/avatar.jpg" alt="John Doe"/>
                         </a>
                         <div class="profile">
                             <div class="profile-image">
-                                <img src="http://localhost/KarirKu/assets/assets/images/users/jkw.jpg" alt="John Doe"/>
+                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/jkw.jpg" alt="John Doe"/>
                             </div>
                             <div class="profile-data">
                                 <div class="profile-data-name">Joko Widodo</div>
@@ -163,25 +166,29 @@ Assessment"><span class="fa fa-file-text-o"></span> <span class="xn-text">Assess
                             <div class="panel-body list-group list-group-contacts scroll" style="height: 200px;">
                                 <a href="#" class="list-group-item">
                                     <div class="list-group-status status-online"></div>
-                                    <img src="assets/images/users/user2.jpg" class="pull-left" alt="John Doe"/>
+                                    <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user2.jpg" class="pull-left" alt="John Doe"/>
                                     <span class="contacts-title">John Doe</span>
                                     <p>Praesent placerat tellus id augue condimentum</p>
                                 </a>
                                 <a href="#" class="list-group-item">
                                     <div class="list-group-status status-away"></div>
-                                    <img src="assets/images/users/user.jpg" class="pull-left" alt="Dmitry Ivaniuk"/>
+                                    <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user.jpg" class="pull-left" alt="Dmitry Ivaniuk"/>
                                     <span class="contacts-title">Dmitry Ivaniuk</span>
                                     <p>Donec risus sapien, sagittis et magna quis</p>
                                 </a>
                                 <a href="#" class="list-group-item">
                                     <div class="list-group-status status-away"></div>
-                                    <img src="assets/images/users/user3.jpg" class="pull-left" alt="Nadia Ali"/>
+                                    <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user3.jpg" class="pull-left" alt="Nadia Ali"/>
                                     <span class="contacts-title">Nadia Ali</span>
                                     <p>Mauris vel eros ut nunc rhoncus cursus sed</p>
                                 </a>
                                 <a href="#" class="list-group-item">
                                     <div class="list-group-status status-offline"></div>
-                                    <img src="assets/images/users/user6.jpg" class="pull-left" alt="Darth Vader"/>
+                                    <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user6.jpg" class="pull-left" alt="Darth Vader"/>
                                     <span class="contacts-title">Darth Vader</span>
                                     <p>I want my money back!</p>
                                 </a>
