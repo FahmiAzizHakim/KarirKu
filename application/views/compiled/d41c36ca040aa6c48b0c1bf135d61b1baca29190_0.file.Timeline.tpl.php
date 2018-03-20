@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.30, created on 2018-03-19 11:13:09
+=======
+/* Smarty version 3.1.30, created on 2018-03-19 09:25:49
+>>>>>>> 4b9b59f0fe8dff3c2a97aff3c83131c7e221e197
   from "C:\xampp\htdocs\KarirKu\application\modules\Timeline\views\Timeline.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
+<<<<<<< HEAD
   'unifunc' => 'content_5aaf8d35bb7065_97182497',
+=======
+  'unifunc' => 'content_5aaf740d4c2c03_30370579',
+>>>>>>> 4b9b59f0fe8dff3c2a97aff3c83131c7e221e197
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd41c36ca040aa6c48b0c1bf135d61b1baca29190' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\modules\\Timeline\\views\\Timeline.tpl',
+<<<<<<< HEAD
       1 => 1521454369,
+=======
+      1 => 1521447804,
+>>>>>>> 4b9b59f0fe8dff3c2a97aff3c83131c7e221e197
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_5aaf8d35bb7065_97182497 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_5aaf740d4c2c03_30370579 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4b9b59f0fe8dff3c2a97aff3c83131c7e221e197
 ?>
 <!DOCTYPE html>
 <html lang="en">

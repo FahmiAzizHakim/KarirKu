@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.30, created on 2018-03-19 11:18:22
+=======
+/* Smarty version 3.1.30, created on 2018-03-19 09:25:50
+>>>>>>> 4b9b59f0fe8dff3c2a97aff3c83131c7e221e197
   from "C:\xampp\htdocs\KarirKu\application\modules\Profile\views\Profile.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
+<<<<<<< HEAD
   'unifunc' => 'content_5aaf8e6e0d1fc4_60163590',
+=======
+  'unifunc' => 'content_5aaf740e39dc88_72921773',
+>>>>>>> 4b9b59f0fe8dff3c2a97aff3c83131c7e221e197
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '78f70052b6e868d3fa8e19fe6c4bbbff9a36dfab' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\modules\\Profile\\views\\Profile.tpl',
+<<<<<<< HEAD
       1 => 1521454690,
+=======
+      1 => 1521447894,
+>>>>>>> 4b9b59f0fe8dff3c2a97aff3c83131c7e221e197
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_5aaf8e6e0d1fc4_60163590 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_5aaf740e39dc88_72921773 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4b9b59f0fe8dff3c2a97aff3c83131c7e221e197
 ?>
 
                 <!-- PAGE CONTENT WRAPPER -->
