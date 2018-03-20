@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-15 08:21:40
+/* Smarty version 3.1.30, created on 2018-03-19 11:18:22
   from "C:\xampp\htdocs\KarirKu\application\modules\Profile\views\Profile.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5aaa1f047ec846_65656795',
+  'unifunc' => 'content_5aaf8e6e0d1fc4_60163590',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '78f70052b6e868d3fa8e19fe6c4bbbff9a36dfab' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\modules\\Profile\\views\\Profile.tpl',
-      1 => 1521098491,
+      1 => 1521454690,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aaf8e6e0d1fc4_60163590 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
                 <!-- PAGE CONTENT WRAPPER -->
@@ -32,7 +32,8 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                             <div class="panel panel-default">
                                 <div class="panel-body profile" style="background: url('assets/images/gallery/music-4.jpg') center center no-repeat;">
                                     <div class="profile-image">
-                                        <img src="http://localhost/KarirKu/assets/assets/images/users/user3.jpg" alt="Nadia Ali"/>
+                                        <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user3.jpg" alt="Nadia Ali"/>
                                     </div>
                                     <div class="profile-data">
                                         <div class="profile-data-name">Nadia Ali</div>
@@ -65,19 +66,22 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                                     <div class="row">
                                         <div class="col-md-4 col-xs-4">
                                             <a href="#" class="friend">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user.jpg"/>
                                                 <span>Dmitry Ivaniuk</span>
                                             </a>                                            
                                         </div>
                                         <div class="col-md-4 col-xs-4">                                            
                                             <a href="#" class="friend">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user2.jpg"/>
                                                 <span>John Doe</span>
                                             </a>                                            
                                         </div>
                                         <div class="col-md-4 col-xs-4">                                            
                                             <a href="#" class="friend">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user4.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user4.jpg"/>
                                                 <span>Brad Pit</span>
                                             </a>                                            
                                         </div>
@@ -85,19 +89,22 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                                     <div class="row">
                                         <div class="col-md-4 col-xs-4">                                            
                                             <a href="#" class="friend">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user5.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user5.jpg"/>
                                                 <span>John Travolta</span>
                                             </a>                                            
                                         </div>
                                         <div class="col-md-4 col-xs-4">                                            
                                             <a href="#" class="friend">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user6.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user6.jpg"/>
                                                 <span>Darth Vader</span>
                                             </a>                                            
                                         </div>
                                         <div class="col-md-4 col-xs-4">                                            
                                             <a href="#" class="friend">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user7.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user7.jpg"/>
                                                 <span>Samuel Leroy Jackson</span>
                                             </a>                                            
                                         </div>
@@ -105,44 +112,60 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                                 
                                     <h4 class="text-title">Photos</h4>
                                     <div class="gallery" id="links">                                                
-                                        <a href="http://localhost/KarirKu/assets/assets/images/gallery/music-1.jpg" title="Music Image 1" class="gallery-item" data-gallery>
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/music-1.jpg" title="Music Image 1" class="gallery-item" data-gallery>
                                             <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/music-1.jpg" alt="Music Image 1"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/music-1.jpg" alt="Music Image 1"/>
                                             </div>                                            
                                         </a>
-                                        <a href="http://localhost/KarirKu/assets/assets/images/gallery/music-2.jpg" title="Music Image 2" class="gallery-item" data-gallery>
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/music-2.jpg" title="Music Image 2" class="gallery-item" data-gallery>
                                             <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/music-2.jpg" alt="Music Image 2"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/music-2.jpg" alt="Music Image 2"/>
                                             </div>                                            
                                         </a>
-                                        <a href="http://localhost/KarirKu/assets/assets/images/gallery/music-3.jpg" title="Music Image 3" class="gallery-item" data-gallery>
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/music-3.jpg" title="Music Image 3" class="gallery-item" data-gallery>
                                             <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/music-3.jpg" alt="Music Image 3"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/music-3.jpg" alt="Music Image 3"/>
                                             </div>                                            
                                         </a>
-                                        <a href="http://localhost/KarirKu/assets/assets/images/gallery/nature-1.jpg" title="Nature Image 1" class="gallery-item" data-gallery>
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-1.jpg" title="Nature Image 1" class="gallery-item" data-gallery>
                                             <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-1.jpg" alt="Nature Image 1"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-1.jpg" alt="Nature Image 1"/>
                                             </div>                                            
                                         </a>
-                                        <a href="http://localhost/KarirKu/assets/assets/images/gallery/nature-2.jpg" title="Nature Image 2" class="gallery-item" data-gallery>
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-2.jpg" title="Nature Image 2" class="gallery-item" data-gallery>
                                             <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-2.jpg" alt="Nature Image 2"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-2.jpg" alt="Nature Image 2"/>
                                             </div>                                            
                                         </a>
-                                        <a href="http://localhost/KarirKu/assets/assets/images/gallery/nature-3.jpg" title="Nature Image 3" class="gallery-item" data-gallery>
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-3.jpg" title="Nature Image 3" class="gallery-item" data-gallery>
                                             <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-3.jpg" alt="Nature Image 3"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-3.jpg" alt="Nature Image 3"/>
                                             </div>                                            
                                         </a>
-                                        <a href="http://localhost/KarirKu/assets/assets/images/gallery/nature-4.jpg" title="Nature Image 4" class="gallery-item" data-gallery>
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-4.jpg" title="Nature Image 4" class="gallery-item" data-gallery>
                                             <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-4.jpg" alt="Nature Image 4"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-4.jpg" alt="Nature Image 4"/>
                                             </div>                                            
                                         </a>
-                                        <a href="http://localhost/KarirKu/assets/assets/images/gallery/nature-5.jpg" title="Nature Image 5" class="gallery-item" data-gallery>
+                                        <a href="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-5.jpg" title="Nature Image 5" class="gallery-item" data-gallery>
                                             <div class="image">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-5.jpg" alt="Nature Image 5"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-5.jpg" alt="Nature Image 5"/>
                                             </div>                                            
                                         </a>                                        
                                     </div>
@@ -164,19 +187,24 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">21:37</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">21:37</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-users"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading" style="padding-bottom: 10px;">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user3.jpg"/>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user3.jpg"/>
                                             <a href="#">Nadia Ali</a> added to friends 
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user.jpg"/>
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/>
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user4.jpg"/>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user.jpg"/>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user2.jpg"/>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user4.jpg"/>
                                         </div>                                        
                                         <div class="timeline-body comments">
                                             <div class="comment-item">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user.jpg"/>
                                                 <p class="comment-head">
                                                     <a href="#">Dmitry Ivaniuk</a> <span class="text-muted">@Aqvatarius</span>
                                                 </p>
@@ -184,7 +212,8 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                                                 <small class="text-muted">15min ago</small>
                                             </div>                                            
                                             <div class="comment-item">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user3.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user3.jpg"/>
                                                 <p class="comment-head">
                                                     <a href="#">Nadia Ali</a> <span class="text-muted">@nadiaAli</span>
                                                 </p>
@@ -201,14 +230,16 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">20:23</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-reply"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">20:23</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-reply"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading padding-bottom-0">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user2.jpg"/> <a href="#">John Doe</a> posted article <a href="#">How to...?</a>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user2.jpg"/> <a href="#">John Doe</a> posted article <a href="#">How to...?</a>
                                         </div>                                        
                                         <div class="timeline-body">                                                                                        
-                                            <img src="http://localhost/KarirKu/assets/assets/images/gallery/nature-6.jpg" width="200" class="img-text" align="left"/> 
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/nature-6.jpg" width="200" class="img-text" align="left"/> 
                                             <h4>Lorem ipsum dolor</h4>
                                             <p>Aenean ultricies condimentum pellentesque. Maecenas pulvinar arcu vel tortor aliquet commodo. Phasellus dapibus nisl quis nunc pharetra, id lobortis arcu sagittis. Nunc facilisis nibh non diam dictum, vitae iaculis tellus egestas. Curabitur vitae dui tempus, tempus metus vitae, cursus nunc. In cursus odio vitae metus commodo, in posuere ante varius.</p> 
                                             <p>Mauris sodales faucibus est, eu consequat dolor tristique in. Quisque at lacus sed ligula semper iaculis. In eu imperdiet ipsum. Ut vestibulum ornare venenatis.</p>           
@@ -238,11 +269,12 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">20:23</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-info-circle"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">20:23</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-info-circle"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading padding-bottom-0">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user3.jpg"/> <a href="#">Nadia Ali</a> changed status to:
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user3.jpg"/> <a href="#">Nadia Ali</a> changed status to:
                                         </div>                                        
                                         <div class="timeline-body">                                            
                                             <i>Peace Will Come, This World Will Rest, Once We Have Togetherness</i>
@@ -253,32 +285,37 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">18:34</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-photo"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">18:34</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-photo"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user3.jpg"/> <a href="#">Nadia Ali</a> added images to gallery
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user3.jpg"/> <a href="#">Nadia Ali</a> added images to gallery
                                         </div>
                                         <div class="timeline-body">
                                             <div class="row">
                                                 <div class="col-md-3">
                                                     <a href="#">
-                                                        <img src="http://localhost/KarirKu/assets/assets/images/gallery/music-2.jpg" class="img-responsive img-text"/>
+                                                        <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/music-2.jpg" class="img-responsive img-text"/>
                                                     </a>
                                                 </div>
                                                 <div class="col-md-3">
                                                     <a href="#">
-                                                        <img src="http://localhost/KarirKu/assets/assets/images/gallery/music-3.jpg" class="img-responsive img-text"/>
+                                                        <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/music-3.jpg" class="img-responsive img-text"/>
                                                     </a>                                                    
                                                 </div>
                                                 <div class="col-md-3">
                                                     <a href="#">
-                                                        <img src="http://localhost/KarirKu/assets/assets/images/gallery/space-1.jpg" class="img-responsive img-text"/>
+                                                        <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/space-1.jpg" class="img-responsive img-text"/>
                                                     </a>                                                    
                                                 </div>
                                                 <div class="col-md-3">
                                                     <a href="#">
-                                                        <img src="http://localhost/KarirKu/assets/assets/images/gallery/space-2.jpg" class="img-responsive img-text"/>
+                                                        <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/gallery/space-2.jpg" class="img-responsive img-text"/>
                                                     </a>                                                    
                                                 </div>
                                             </div>
@@ -295,19 +332,24 @@ function content_5aaa1f047ec846_65656795 (Smarty_Internal_Template $_smarty_tpl)
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">15:21</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">15:21</div>
+                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading" style="padding-bottom: 10px;">
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user3.jpg"/>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user3.jpg"/>
                                             <a href="#">Nadia Ali</a> added to friends 
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user5.jpg"/>
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user6.jpg"/>
-                                            <img src="http://localhost/KarirKu/assets/assets/images/users/user7.jpg"/>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user5.jpg"/>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user6.jpg"/>
+                                            <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user7.jpg"/>
                                         </div>                                        
                                         <div class="timeline-body comments">
                                             <div class="comment-item">
-                                                <img src="http://localhost/KarirKu/assets/assets/images/users/user6.jpg"/>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
+assets/images/users/user6.jpg"/>
                                                 <p class="comment-head">
                                                     <a href="#">Darth Vader</a> <span class="text-muted">@darthvader</span>
                                                 </p>
