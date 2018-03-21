@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-19 09:25:50
+/* Smarty version 3.1.30, created on 2018-03-19 11:51:05
   from "C:\xampp\htdocs\KarirKu\application\modules\Profile\views\Profile.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5aaf740e39dc88_72921773',
+  'unifunc' => 'content_5aaf9619cafa89_16350123',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '78f70052b6e868d3fa8e19fe6c4bbbff9a36dfab' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KarirKu\\application\\modules\\Profile\\views\\Profile.tpl',
-      1 => 1521447894,
+      1 => 1521456604,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5aaf740e39dc88_72921773 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aaf9619cafa89_16350123 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
                 <!-- PAGE CONTENT WRAPPER -->
@@ -187,8 +187,8 @@ assets/images/gallery/nature-5.jpg" alt="Nature Image 5"/>
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">21:37</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">21:37</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-users"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading" style="padding-bottom: 10px;">
                                             <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
@@ -230,8 +230,8 @@ assets/images/users/user3.jpg"/>
 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">20:23</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-reply"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">20:23</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-reply"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading padding-bottom-0">
                                             <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
@@ -269,8 +269,8 @@ assets/images/gallery/nature-6.jpg" width="200" class="img-text" align="left"/>
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">20:23</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-info-circle"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">20:23</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-info-circle"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading padding-bottom-0">
                                             <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
@@ -285,8 +285,8 @@ assets/images/users/user3.jpg"/> <a href="#">Nadia Ali</a> changed status to:
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">18:34</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-photo"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">18:34</div> -->
+                                    <!-- <div class="timeline-item-icon"><span class="fa fa-photo"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading">
                                             <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
@@ -332,8 +332,8 @@ assets/images/gallery/space-2.jpg" class="img-responsive img-text"/>
                                 
                                 <!-- START TIMELINE ITEM -->
                                 <div class="timeline-item timeline-item-right">
-                                    <div class="timeline-item-info">15:21</div>
-                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div>                                   
+                                    <!-- <div class="timeline-item-info">15:21</div>
+                                    <div class="timeline-item-icon"><span class="fa fa-users"></span></div> -->                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading" style="padding-bottom: 10px;">
                                             <img src="<?php echo $_smarty_tpl->tpl_vars['assets_url']->value;?>
