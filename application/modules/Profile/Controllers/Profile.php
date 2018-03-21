@@ -11,7 +11,7 @@ class Profile extends MY_Controller {
 
 	public function index()
 	{
-    	$this->layout('Profile', '');
+    	$this->layout('profile', '');
 	}
 
 }
