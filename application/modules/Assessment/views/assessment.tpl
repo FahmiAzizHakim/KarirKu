@@ -22,85 +22,92 @@
                 
  
                 <!-- START BREADCRUMB -->
-                <ul class="breadcrumb">
-                    
-                    <li class="active">Assessment</li>
-                </ul>
-                <!-- END BREADCRUMB -->                       
-                
-                <!-- PAGE CONTENT WRAPPER -->
-                <div class="page-content-wrap">
-                    
-                    <!-- START WIDGETS -->                    
-                    <div class="row">
-                        <div class="col-md-3">  
-                            <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
-                                <div class="widget-data">
-                                    <br>
-                                    <a href="#" class="widget-int num-count"> NEO-PI </a>
-                                </div>      
-                                <div class="widget-controls">                                
-                                    <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    <div class="row">
-                        <div class="col-md-3">  
-                            <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
-                                <div class="widget-data">
-                                    <br>
-                                    <a href="#" class="widget-int num-count"> H-HC </a>
-                                </div>      
-                                <div class="widget-controls">                                
-                                    <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    
-
-                    <div class="row">
-                        <div class="col-md-3">  
-                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
-                                <div class="widget-data">
-                                    <br>
-                                    <a href="#" class="widget-int num-count"> CFIT-HC </a>
-                                </div>      
-                                <div class="widget-controls">                                
-                                    <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
-                                </div>
-                            </div>
-
-        </div>
-                        <div class="col-md-3">
-                            
-                            
-                        </div>
-                    </div>
-                    <!-- END WIDGETS -->                    
-                    
-                    <div class="row">
-                        <div class="col-md-8">
-                            
-   
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-md-4">
-                            
-                        </div>
-                    </div>
-                    
-
-                    
+<div class="row col-md-12">
+<div class="panel panel-default">                                
+    <div class="panel-body">
+        <h2>NEO - PI</h2>
+                <div class="form-group">                                                                    
+                <div class="col-md-8">
+                <div class="input-group">
+        <br />
+<!--                     <span class="input-group-addon"><span class="fa fa-search"></span></span>
+                    <input type="text" class="form-control" placeholder="Keywords "/>-->
                 </div>
-                <!-- END PAGE CONTENT WRAPPER -->                                
-            </div>            
-            <!-- END PAGE CONTENT -->
+                </div>
+                </div>
+
+        <div class="form-group">
+            <div class="col-md-12">
+                <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-primary">Part 1</a>
+                <a href="#" class="btn btn-primary">Part 2</a>
+                <a href="#" class="btn btn-primary">Part 3</a>
+                <a href="#" class="btn btn-primary">Part 4/a>
+                <a href="#" class="btn btn-primary">Part 5</a>
+                </div>                                         
+            </div>
         </div>
+    </div>
+</div>
+</div>
+
+<div class="row col-md-12">
+<div class="panel panel-default">                                
+    <div class="panel-body">
+        <h2>H - HC</h2>
+                <div class="form-group">                                                                    
+                <div class="col-md-8">
+                <div class="input-group">
+        <br />
+<!--                     <span class="input-group-addon"><span class="fa fa-search"></span></span>
+                    <input type="text" class="form-control" placeholder="Keywords "/>-->
+                </div>
+                </div>
+                </div>
+
+        <div class="form-group">
+            <div class="col-md-12">
+            <div class="btn-group btn-group-justified">
+            <a href="#" class="btn btn-primary">Part 1</a>
+            <a href="#" class="btn btn-primary">Part 2</a>
+            <a href="#" class="btn btn-primary">Part 3</a>
+            <a href="#" class="btn btn-primary">Part 4/a>
+            <a href="#" class="btn btn-primary">Part 5</a>
+            </div>                                         
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row col-md-12">
+<div class="panel panel-default">                                
+    <div class="panel-body">
+        <h2>CFIT - HC</h2>
+                <div class="form-group">                                                                    
+                <div class="col-md-8">
+                <div class="input-group">
+        <br />
+<!--                     <span class="input-group-addon"><span class="fa fa-search"></span></span>
+                    <input type="text" class="form-control" placeholder="Keywords "/>-->
+                </div>
+                </div>
+                </div>
+
+        <div class="form-group">
+                <div class="col-md-12">
+                <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-primary">Part 1</a>
+                <a href="#" class="btn btn-primary">Part 2</a>
+                <a href="#" class="btn btn-primary">Part 3</a>
+                <a href="#" class="btn btn-primary">Part 4/a>
+                <a href="#" class="btn btn-primary">Part 5</a>
+                </div>                                         
+                </div>
+        </div>
+    </div>
+</div>
+</div>
         <!-- END PAGE CONTAINER -->
 
         <!-- MESSAGE BOX-->
