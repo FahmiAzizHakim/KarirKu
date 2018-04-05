@@ -77,7 +77,7 @@
                                   
                                     <div class="timeline-item-content">
                                         <div class="timeline-heading">
-                                            <img src="{$assets_url}assets/images/users/user2.jpg"/> <a href="#">John Doe</a> added article <a href="#">Lorem ipsum dolor sit amet</a>
+                                            <img src="{$assets_url}assets/images/users/user2.jpg"/> <a href="#">John</a> added article <a href="#">Lorem ipsum dolor sit amet</a>
                                         </div>
                                         <div class="timeline-body">
                                             <img src="{$assets_url}assets/images/gallery/nature-4.jpg" class="img-text" width="150" align="left"/>
