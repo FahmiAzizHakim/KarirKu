@@ -97,7 +97,7 @@
             
         </div>
         
-        <script type="text/javascript">
+<script type="text/javascript">
     {literal}
     $("#BtnSignUp").click(function(){
     {/literal}
