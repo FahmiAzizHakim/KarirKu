@@ -21,7 +21,7 @@ class MY_Controller extends CI_Controller {
 		parent::__construct();
 		$this->module = $this->router->fetch_module();
 		$this->controller = $this->router->fetch_class();
-		$this->API = 'http://localhost/redecent/serverapi.futsalku/';
+		$this->API = 'http://localhost/serverapi.futsalku/';
 		$path = APPPATH . 'modules/'.$this->module.'/views/';
 		$this->view_path = $path;
 		$this->base_url = base_url();
